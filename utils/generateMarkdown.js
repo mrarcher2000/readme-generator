@@ -85,7 +85,17 @@ function renderLicenseSection(data) {
   }
 };
 
+function renderTestSection(data) {
+  if (!data.tests) {
+    return;
+  }
 
+  else {
+    return `## Tests
+
+    ${data.tests}`
+  };
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -110,9 +120,7 @@ ${data.usage}
 
 ${data.contributing}
 
-## Tests
-
-${data.tests}
+${renderTestSection(data)}
 
 ## Questions
 
