@@ -19,17 +19,17 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Please enter any instructions on how to install your project. (To skip, press enter)'
+        message: 'Please enter any instructions on how to install your project.'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Please describe how to use your project. (To skip, press enter)'
+        message: 'Please describe how to use your project.'
     },
     {
         type: 'input',
         name: 'contribute',
-        message: 'Leave instructions on how to contribute to your project. (To skip, press enter)'
+        message: 'Leave instructions on how to contribute to your project.'
     },
     {
         type: 'input',
@@ -66,11 +66,13 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(data) {
+function writeToFile(answers) {
 
+    // this.answers = answers;
     let fileName = './Develop/README.md';
+    console.log(answers);
 
-        fs.writeFile(fileName, generateMarkdown(data), 'utf8', (err) => {
+    fs.writeFile(fileName, generateMarkdown(answers), 'utf8', (err) => {
         if (err) throw err;
         console.log("Your README.md has been created!\nCheck the Develop directory for your README files.");
     });
