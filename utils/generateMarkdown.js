@@ -86,7 +86,7 @@ function renderLicenseSection(data) {
 };
 
 function renderTestSection(data) {
-  if (!data.tests) {
+  if (data.tests === '') {
     return;
   }
 
@@ -118,14 +118,14 @@ ${data.usage}
 
 ## Contributing
 
-${data.contributing}
+${data.contribute}
 
 ${renderTestSection(data)}
 
 ## Questions
 
 For any additional questions or comments, please email the author of this project at: 
-${data.email}
+${data.email}.
 
 *OR*
 
