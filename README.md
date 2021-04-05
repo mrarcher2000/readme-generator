@@ -26,7 +26,8 @@ Once you have Node.js installed, go to the Professional README Generator reposit
 
 To use this project, run your Node.js terminal and go to the file where the application is stored. Once there, type the command 'node index.js' to run the application. Follow the prompts in your command line until you reach the end and all questions have been answered about your project. You should see a success message and your new README.md file will be stored in the 'Develop' directory of the application's files. Now your README.md is available to use for your projects!
 
-<iframe src="https://drive.google.com/file/d/11bc2MYglgLDIHWQx5ZJ8Ukz6ExW_pwME/preview" width="640" height="480"></iframe>
+To see a walkthrough on how this application works, refer to the video link below: 
+https://drive.google.com/file/d/11bc2MYglgLDIHWQx5ZJ8Ukz6ExW_pwME/view .
 
 ## Contributing
 
