@@ -3,13 +3,13 @@
 
 ## Table of Contents
 
-      * [Description](##description)
-      * [Installation](##installation)
-      * [Usage](##usage)
-      * [Contributing](##contributing)
-      * [Tests](##tests)
-      * [Questions](##questions)
-      * [License](##license)
+* [Description](##description)
+* [Installation](##installation)
+* [Usage](##usage)
+* [Contributing](##contributing)
+* [Tests](##tests)
+* [Questions](##questions)
+* [License](##license)
 
 ## Description
 
@@ -43,7 +43,6 @@ You can view other repositories made by me at https://github.com/mrarcher2000.
 
 
 ## License
-    
-    This project is licensed under the Open Source MIT License.
-    A full overview of what this license covers can be found at https://spdx.org/licenses/MIT.html.
+   This project is licensed under the Open Source MIT License.
+   A full overview of what this license covers can be found at https://spdx.org/licenses/MIT.html.
     
